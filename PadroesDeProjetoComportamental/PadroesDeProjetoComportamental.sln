@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.3.11520.95 d18.3
+VisualStudioVersion = 18.3.11520.95
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{23879C82-EC3C-4803-9437-BF1BB83FA3C4}"
 EndProject
@@ -12,6 +12,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{83AD834E-50D6-4457-B8C5-789C58FB2D0F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{ABAF1747-5FCD-44FD-B173-30C2D2038BB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.csproj", "{FFCDC792-BE87-D430-6A55-9F9D0DA04C02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{231A262A-F463-5755-8F96-81C9687BD273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{A6639FC8-43CB-DCDF-A29D-D7FB6D74438E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{76F71D1A-30FC-F9BD-DEBE-1F62C4454ECD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +47,22 @@ Global
 		{ABAF1747-5FCD-44FD-B173-30C2D2038BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABAF1747-5FCD-44FD-B173-30C2D2038BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABAF1747-5FCD-44FD-B173-30C2D2038BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFCDC792-BE87-D430-6A55-9F9D0DA04C02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFCDC792-BE87-D430-6A55-9F9D0DA04C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFCDC792-BE87-D430-6A55-9F9D0DA04C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFCDC792-BE87-D430-6A55-9F9D0DA04C02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{231A262A-F463-5755-8F96-81C9687BD273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{231A262A-F463-5755-8F96-81C9687BD273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{231A262A-F463-5755-8F96-81C9687BD273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{231A262A-F463-5755-8F96-81C9687BD273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6639FC8-43CB-DCDF-A29D-D7FB6D74438E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6639FC8-43CB-DCDF-A29D-D7FB6D74438E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6639FC8-43CB-DCDF-A29D-D7FB6D74438E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6639FC8-43CB-DCDF-A29D-D7FB6D74438E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76F71D1A-30FC-F9BD-DEBE-1F62C4454ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76F71D1A-30FC-F9BD-DEBE-1F62C4454ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76F71D1A-30FC-F9BD-DEBE-1F62C4454ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76F71D1A-30FC-F9BD-DEBE-1F62C4454ECD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
